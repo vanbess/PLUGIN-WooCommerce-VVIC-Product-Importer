@@ -13,14 +13,22 @@ The most important thing to remember where CSV import files are concerned is tha
         (a) sku_code –> the product SKU to be used during import [REQUIRED].
         (b) vvic_url –> the vvic product page url [REQUIRED].
         (c) product_title –> the product title you wish to use for initial import [OPTIONAL]. 
-        Defaults to product SKU if not present.
-        (d) price_usd –> the product’s price in USD [OPTIONAL]. Defaults to VVIC price if not present.
-        (e) categories –> comma separated product categories which should be attached to the product on import [REQUIRED]. If the categories provided are not present on the website to which products are being imported, they will be created during import and attached to the product.
-        (f) size_chart_image_url –> URL of the product’s size chart image [OPTIONAL BUT RECOMMENDED]. This is used to attach size chart image to product, which is later then used to read image text and create product size chart.
+            Defaults to product SKU if not present.
+        (d) price_usd –> the product’s price in USD [OPTIONAL]. Defaults to VVIC price if 
+            not present.
+        (e) categories –> comma separated product categories which should be attached to 
+            the product on import [REQUIRED]. If the categories provided are not present 
+            on the website to which products are being imported, they will be created 
+            during import and attached to the product.
+        (f) size_chart_image_url –> URL of the product’s size chart image 
+            [OPTIONAL BUT RECOMMENDED]. This is used to attach size chart image to product, 
+            which is later then used to read image text and create product size chart.
         (g) is_available -> whether or not the product being imported is currently available. 
         Use Y for yes, N for no. Using N means import of a particular product will be skipped
-    3. Chinese -> English attribute map must be set up and complete in the admin screen (VVIC Imports -> Attribute Map)
-    4. SKU Ending Codes must be set up and complete in the admin screen (VVIC Imports -> SKU Ending Codes)
+    3. Chinese -> English attribute map must be set up and complete in the admin screen 
+        (VVIC Imports -> Attribute Map)
+    4. SKU Ending Codes must be set up and complete in the admin screen 
+        (VVIC Imports -> SKU Ending Codes)
 
 ### IMPORTANT NOTES ON IMPORTING
 
