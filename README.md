@@ -24,11 +24,11 @@ The most important thing to remember where CSV import files are concerned is tha
             [OPTIONAL BUT RECOMMENDED]. This is used to attach size chart image to product, 
             which is later then used to read image text and create product size chart.
         (g) is_available -> whether or not the product being imported is currently available. 
-        Use Y for yes, N for no. Using N means import of a particular product will be skipped
+            Use Y for yes, N for no. Using N means import of a particular product will be skipped
     3. Chinese -> English attribute map must be set up and complete in the admin screen 
-        (VVIC Imports -> Attribute Map)
+            (VVIC Imports -> Attribute Map)
     4. SKU Ending Codes must be set up and complete in the admin screen 
-        (VVIC Imports -> SKU Ending Codes)
+            (VVIC Imports -> SKU Ending Codes)
 
 ### IMPORTANT NOTES ON IMPORTING
 
@@ -43,13 +43,16 @@ This means that, while the import process is running, you will likely see partia
 
 **The import process flow is split up as follows:**
 
-    1. Products are initially inserted into the database based on data contained in your CSV import file;
-    2. Product basic metadata is inserted by querying the VVIC product URL provided in your CSV import file and retrieving associated data;
+    1. Products are initially inserted into the database based on data contained in your CSV import
+       file;
+    2. Product basic metadata is inserted by querying the VVIC product URL provided in your CSV 
+        import file and retrieving associated data;
     3. Product main image is retrieved from VVIC website and attached;
     4. Product size chart image, if a link for it is defined in CSV file, is retrieved and attached;
     5. Product categories as provided in CSV file are mapped to each product;
     6. Product attributes as retrieved from VVIC product link is mapped to each product;
-    7. Product gallery images are imported and attached to attribute/variation data and attached as product gallery images.
+    7. Product gallery images are imported and attached to attribute/variation data and attached as 
+        product gallery images.
 
 **Note 5:** If any of the above processes fail to complete, for whatever reason, they are rescheduled and will run again. The process which typically takes the longest is the import of product gallery images.
 
@@ -81,8 +84,20 @@ Additional instructions on how to parse size chart header and body images to tex
 
 **Before you begin the size chart image cropping/parsing process, the following needs to be set up and complete:**
 
-    1. The chart parameter map (VVIC Imports -> Chart Parameter Map -> Chart Parameter Map tab). This allows the replacement of Chinese chart header parameters with their English chart header parameter counterparts when saving the parsed header data and is required in order for the OCR process for chart headers to succeed. If these maps are not present, saving accurate chart header parameters will fail.
-    2. The chart parameter replacement map (VVIC Imports -> Chart Parameter Map -> Chart Replacement Map tab). While the OCR parsing process tends to be accurate up to 80% in reading text from images, there are times where it will fail to read Chinese header parameters accurately. Inaccurate or partially accurate parameters will be returned when this happens. These inaccurate or incorrect Chinese parameters will need to be replaced with the correct Chinese parameters so that the correct English parameter is substituted (as defined in point number 1 above) when the parsed chart header data is saved. Failure to set up the chart replacement map will result in blank English header parameters when saving the parsed chart data and/or partially broken size chart tables.
+    1. The chart parameter map (VVIC Imports -> Chart Parameter Map -> Chart Parameter Map tab). 
+        This allows the replacement of Chinese chart header parameters with their English chart 
+        header parameter counterparts when saving the parsed header data and is required in order
+        for the OCR process for chart headers to succeed. If these maps are not present, saving 
+        accurate chart header parameters will fail.
+    2. The chart parameter replacement map (VVIC Imports -> Chart Parameter Map -> Chart 
+        Replacement Map tab). While the OCR parsing process tends to be accurate up to 80% in 
+        reading text from images, there are times where it will fail to read Chinese header 
+        parameters accurately. Inaccurate or partially accurate parameters will be returned when 
+        this happens. These inaccurate or incorrect Chinese parameters will need to be replaced 
+        with the correct Chinese parameters so that the correct English parameter is substituted 
+        (as defined in point number 1 above) when the parsed chart header data is saved. Failure 
+        to set up the chart replacement map will result in blank English header parameters when 
+        saving the parsed chart data and/or partially broken size chart tables.
 
 ### IMPORTANT NOTES ON USING OCR TO PARSE SIZE CHART IMAGES
 
