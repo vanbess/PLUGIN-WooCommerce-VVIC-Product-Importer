@@ -108,3 +108,6 @@ Additional instructions on how to parse size chart header and body images to tex
 **Note 3:** If you are having accuracy issues with chart header parameters during the parsing/image reading process, recrop your header image using the cropping tool, making sure that you leave enough white space around the edges of the image during the process, then run the OCR parsing process again. This often improves the accuracy of the text which is returned. The same goes for cropping and parsing chart body images.
 
 **Note 4:** Charts which have been parsed should be reviewed for accuracy on VVIC Imports -> Review Charts page once the cropping/parsing process has been completed via either the VVIC Imports -> Crop/Parse page, or the product edit screen as described earlier. Chart data can be adjusted as needed by following the instructions provided in the Review Chart lightbox for each product.
+
+## CHANGELOG
+January 5, 2022: Implemented import file flag is_available, providing ability to skip certain products on import if unavailable
