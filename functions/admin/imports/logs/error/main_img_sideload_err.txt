@@ -1,0 +1,61 @@
+main image failed to sideload with error for product id 65477: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65657: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65658: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65659: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65664: Invalid image URL. 
+main image failed to sideload with error for product id 65665: Invalid image URL. 
+main image failed to sideload with error for product id 65675: Invalid image URL. 
+main image failed to sideload with error for product id 65677: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65679: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65658: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65659: cURL error 28: Operation timed out after 300001 milliseconds with 428155 out of 581562 bytes received 
+main image failed to sideload with error for product id 65662: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65657: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65676: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65658: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65659: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65679: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65664: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65677: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65679: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65938: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65945: Invalid image URL. 
+main image failed to sideload with error for product id 65947: Invalid image URL. 
+main image failed to sideload with error for product id 65951: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65952: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65966: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65967: Invalid image URL. 
+main image failed to sideload with error for product id 65969: Invalid image URL. 
+main image failed to sideload with error for product id 65947: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65949: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65951: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65952: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65953: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65954: cURL error 28: Operation timed out after 300001 milliseconds with 198699 out of 416828 bytes received 
+main image failed to sideload with error for product id 65947: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65951: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65965: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65966: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65968: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65967: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 65947: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66256: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66262: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66272: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66612: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66617: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66631: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66899: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66900: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66901: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66902: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66903: Invalid image URL. 
+main image failed to sideload with error for product id 66913: Invalid image URL. 
+main image failed to sideload with error for product id 66917: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66918: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66919: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66899: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66903: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66917: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66918: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+main image failed to sideload with error for product id 66918: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 

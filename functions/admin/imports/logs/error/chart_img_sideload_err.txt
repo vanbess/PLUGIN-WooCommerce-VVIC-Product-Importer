@@ -1,0 +1,7 @@
+chart image failed to sideload with error for product id 66616: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+chart image failed to sideload with error for product id 66618: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+chart image failed to sideload with error for product id 66889: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+chart image failed to sideload with error for product id 66899: cURL error 28: Operation timed out after 10000 milliseconds with 0 out of 0 bytes received 
+chart image failed to sideload with error for product id 66903: cURL error 28: Operation timed out after 300001 milliseconds with 34851 out of 56818 bytes received 
+chart image failed to sideload with error for product id 66904: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 
+chart image failed to sideload with error for product id 66889: cURL error 28: Operation timed out after 10001 milliseconds with 0 out of 0 bytes received 

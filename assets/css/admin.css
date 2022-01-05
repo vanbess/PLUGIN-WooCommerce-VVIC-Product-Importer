@@ -1,0 +1,82 @@
+.vvic_attr_line.add_new, 
+.vvic_attr_line, 
+.vvic_sku_line.add_new, 
+.vvic_sku_line, 
+.vvic_chart_param_line, 
+.vvic_chart_param_line.add_new,
+.vvic_repl_param_line,
+.vvic_repl_param_line.add_new{
+    display: flex;
+    margin-bottom: 20px;
+}
+a.vvic_attr_add,
+a.vvic_sku_add,
+a.vvic_param_add,
+a.vvic_repl_param_add {
+    background: #2271b1;
+    color: white !important;
+    text-decoration: none;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 1.5;
+}
+
+a.vvic_attr_rem,
+a.vvic_sku_rem,
+a.vvic_param_rem,
+a.vvic_repl_param_rem{
+    display: inline-block;
+    background: red;
+    color: white !important;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.vvic_attr_add_rem,
+.vvic_sku_add_rem,
+.vvic_param_add_rem,
+.vvic_repl_param_add_rem{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+
+.vvic_attr_zh_cont,
+.vvic_sku_color_cont,
+.vvic_zh_param_cont,
+.vvic_zh_ocr_param_cont{
+    padding-right: 15px;
+}
+
+#wpbody-content > div.wrap > p {
+    font-size: 14px;
+    font-weight: 500;
+    padding-left: 4px;
+}
+.vvic_csv_upload_cont > form > input {
+    margin-bottom: 15px;
+}
+.vvic_csv_upload_note {
+    background: #ff00000f;
+    width: fit-content;
+    padding: 15px 15px 1px 15px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #00000026;
+}
+
+ul.vvic_csv_file_requirements {
+    font-weight: 500;
+    list-style: circle;
+    padding-left: 20px;
+}
+
+ul.vvic_csv_file_cols_required {
+    list-style: number;
+    padding-left: 20px;
+}
+

@@ -1,0 +1,160 @@
+span.vvic_x {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: red;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    line-height: 1.6;
+    box-shadow: -1px 2px 2px #00000070;
+}
+
+span.vvic_check {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: green;
+    text-align: center;
+    color: white;
+    border-radius: 50%;
+    line-height: 1.6;
+    box-shadow: -1px 2px 2px #00000070;
+}
+
+.vvic_retrieval_data ul {
+    padding-left: 35px;
+    list-style: decimal;
+}
+
+/* cropper */
+.vvic_chart_img_crop_cont {
+    margin-left: auto;
+    margin-right: auto;
+    overflow: auto;
+    overflow-x: clip;
+}
+
+.vvic_cropped_imgs_cont {
+    display: inline-block;
+    padding-left: 15px;
+    min-width: 40%;
+    max-width: 40%;
+    vertical-align: top;
+}
+
+.vvic_chart_img_cont {
+    display: inline-block;
+    padding-right: 15px;
+    max-width: 57%;
+}
+
+img#vvic_chart_main {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+img#vvic_cropped_header {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+img#vvic_cropped_body {
+    border: 2px solid #ddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.vvic_chart_crop_btns_cont {
+    padding-top: 20px;
+}
+
+.vvic_chart_crop_btns_cont button {
+    font-size: 16px !important;
+    width: 44%;
+}
+
+button#vvic_save_convert_chart_crops {
+    font-size: 16px;
+    width: 100%;
+}
+
+.vvic_ch_img_small {
+    width: 50% !important;
+}
+.vvic_chart_crop_btns_cont button {
+    width: 49%;
+}
+
+button#vvic_extract_chart_body {
+    position: relative;
+    left: 16px;
+}
+h4#vvic_chart_extract_head {
+    background: #efefef;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    border-radius: 3px;
+    box-shadow: 0px 2px 2px #0000001f;
+}
+
+.cropper-bg{
+    width: 100% !important;
+}
+
+.vvic_converted_header_text_actual {
+    margin-bottom: 15px;
+    font-size: 20px;
+}
+
+.vvic_converted_header_text {
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-top: 20px;
+    background: #efefef;
+}
+
+.vvic_converted_header_text span {
+    font-weight: 600;
+    display: block;
+}
+
+button#vvic_chart_header_to_text {
+    font-size: 16px;
+    width: 100%;
+}
+
+button#vvic_chart_body_to_text {
+    font-size: 16px;
+    width: 100%;
+}
+
+.vvic_converted_body_text {
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background: #efefef;
+}
+
+.vvic_converted_body_text span {
+    display: block;
+    font-weight: 600;
+}
+
+.vvic_converted_body_text_actual {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+button#vvic_save_converted_chart_text {
+    font-size: 16px;
+    width: 100%;
+    background: green;
+    border-color: green !important;
+    margin-bottom: 15px;
+}
