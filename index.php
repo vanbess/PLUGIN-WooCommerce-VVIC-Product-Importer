@@ -36,8 +36,8 @@ function vvic_import_init() {
         wp_enqueue_style( 'vvic-jqui', VVIC_URL . 'assets/css/jquery.ui.min.css' );
         wp_enqueue_style( 'vvic-cropper-css', VVIC_URL . 'assets/css/cropper.css' );
         wp_enqueue_style( 'vvic-product-meta-css', VVIC_URL . 'assets/css/product.css' );
-        wp_enqueue_script( 'vvic-cropper-js', VVIC_URL . 'assets/js/cropper.js', [ 'jquery' ], '', true );
-        wp_enqueue_script( 'vvic-cb-select', VVIC_URL . 'assets/js/select.js', [ 'jquery' ], '', true );
+        wp_enqueue_script( 'vvic-cropper-js', VVIC_URL . 'assets/js/cropper.js', [ 'jquery' ], '1.15.2', true );
+        wp_enqueue_script( 'vvic-cb-select', VVIC_URL . 'assets/js/select.js', [ 'jquery' ], false, true );
     }
 
     // chart review/parsing functionality

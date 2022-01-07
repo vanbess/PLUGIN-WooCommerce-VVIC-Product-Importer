@@ -25,7 +25,7 @@ function vvic_process_csv()
         // build array for initial processing
         if (($handle = fopen($target_file, "r")) !== FALSE) :
             $line = 1;
-            while (($row  = fgetcsv($handle, 0, ";")) !== FALSE) :
+            while (($row  = fgetcsv($handle, 1000, ";")) !== FALSE) :
 
                 // skip empty lines
                 if ($row[0] === '') :
