@@ -1,4 +1,4 @@
-# SBWC VVIC Product Importer Instructions
+# PLUGIN: VVIC Product Importer for WooCommerce
 
 ## SECTION 1: IMPORTING PRODUCTS
 
